@@ -1,6 +1,7 @@
 # my additions 
 *.swo
 *.swp
+app.db
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
