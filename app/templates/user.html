@@ -6,7 +6,7 @@
   <hr>
   {% for post in posts %}
   <p>
-      <b>{{ post.author.nickname }}</b>{{ post.body }}
+      <b>{{ post.author.nickname }}:</b> {{ post.body }}
   </p>
   {% endfor %}
 {% endblock %}
